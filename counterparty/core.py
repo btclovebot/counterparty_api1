@@ -13,7 +13,7 @@ class Market(object):
 		self.opener = urllib2.build_opener()
 		self.opener.addheaders.append(('Content-Type', 'application/json'))
 		self.opener.addheaders.append(('User-agent', 'coinmarketcap - python wrapper \
-		around coinmarketcap.com (github.com/mrsmn/coinmarketcap-api)'))
+		around coinmarketcap.com (github.com/btclovebot/counterparty_api1)'))
 
 	def _urljoin(self, *args):
 		""" Internal urljoin function because urlparse.urljoin sucks """
